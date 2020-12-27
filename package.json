@@ -2,12 +2,12 @@
   "name": "mgch",
   "version": "1.0.0",
   "description": "Site MGCH",
-  "main": "script.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,21 @@
   "bugs": {
     "url": "https://github.com/mccrush/mgch/issues"
   },
-  "homepage": "https://github.com/mccrush/mgch#readme"
+  "homepage": "https://github.com/mccrush/mgch#readme",
+  "dependencies": {
+    "vue": "^3.0.4"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.5.9",
+    "@vue/compiler-sfc": "^3.0.4"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
 }
