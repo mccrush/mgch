@@ -1,4 +1,5 @@
 // vue.config.js
 module.exports = {
-  outputDir: 'docs'
+  publicPath: '/mgch/', // Путь в подкаталог для домена Github page
+  outputDir: 'docs' // Имя директории для сборки, для Github page
 }
