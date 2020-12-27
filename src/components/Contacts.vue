@@ -8,6 +8,12 @@
           async
           src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8193ba2e40c6d4c3843559967af539b869d2103e4102bd1acd8f9f6e9374a2d8&amp;width=556&amp;height=240&amp;lang=ru_RU&amp;scroll=true"
         ></script> -->
+        <iframe
+          src="https://yandex.ru/map-widget/v1/?um=constructor%3A8193ba2e40c6d4c3843559967af539b869d2103e4102bd1acd8f9f6e9374a2d8&amp;source=constructor"
+          width="556"
+          height="240"
+          frameborder="0"
+        ></iframe>
       </div>
       <div class="adres">
         <strong>г. Екатеринбург</strong><br />
@@ -72,14 +78,14 @@
             />
           </a>
         </div>
-        <a
+        <!-- <a
           class="call-button"
           href="#"
           id="btnGetCall"
           data-fancybox
           data-src="#modal"
           >Заказать звонок</a
-        >
+        > -->
       </div>
     </div>
     <div style="display: none" id="modal">
